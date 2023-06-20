@@ -11,6 +11,8 @@ int main()
     for(int i=0;i<20;i++)
     {
         cout<<(rand()%20)+1<<" ";
-        if(i%2!=0)cout<<endl;
+        if((rand()%20)+5<=20)cout<<(rand()%20)+5;
+        else cout<<(rand()%20)+1;
+        cout<<endl;
     }
 }
